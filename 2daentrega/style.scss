@@ -1,0 +1,182 @@
+$primary-bg-color: #121212;
+$secondary-bg-color: #242424;
+$primary-color: #F1F3FF;
+$accent-color: #b5ff16ad;
+$black-color: #121212;
+$white-color: #fff;
+
+body, .navbar, .footer {
+    background-color: $primary-bg-color;
+}
+
+.navbar-brand, .card-title, .card-text, h1, h2, p, a {
+    color: $primary-color;
+}
+
+.btn {
+    color: $black-color;
+    background-color: $accent-color;
+    margin: 5px;
+}
+
+.btn-primary {
+    width: 100%;
+    height: 48px;
+    border-radius: 12px;
+    background-color: $secondary-bg-color;
+    color: $white-color;
+    margin: 5px;
+}
+
+.card {
+    background-color: $secondary-bg-color;
+    margin: 30px;
+}
+
+.carousel-caption h5, .carousel-caption p {
+    color: $primary-color;
+}
+
+.footer {
+    background-color: $primary-bg-color;
+}
+
+.social-icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 15px;
+}
+
+@media (max-width: 576px) {
+    .card-text {
+        font-size: 0.8rem;
+    }
+
+    .btn-primary {
+        width: 100%;
+    }
+}
+
+
+// _home
+
+$primary-bg-color: #121212;
+$secondary-bg-color: #242424;
+$primary-color: #F1F3FF;
+$accent-color: #b5ff16ad;
+$black-color: #121212;
+$white-color: #fff;
+
+.home-search-bar {
+    width: 333px;
+    height: 48px;
+    border-radius: 25px;
+    margin: 0 auto;
+}
+
+.amigos-jugando {
+    .card {
+        border: 1px solid $accent-color;
+        margin-bottom: 20px;
+
+        .card-body {
+            display: flex;
+            align-items: center;
+
+            img {
+                border-radius: 50%;
+                width: 50px;
+                height: 50px;
+                margin-right: 20px;
+            }
+
+            .btn {
+                background-color: $accent-color;
+                color: $black-color;
+                margin-left: auto;
+            }
+        }
+    }
+}
+
+.ultimas-noticias {
+    .card {
+        margin-bottom: 20px;
+
+        img {
+            max-height: 150px;
+        }
+    }
+}
+
+
+// _pagina2
+// Variables de color
+$primary-bg-color: #121212;
+$secondary-bg-color: #242424;
+$primary-color: #F1F3FF;
+$accent-color: #b5ff16ad;
+$black-color: #121212;
+$white-color: #fff;
+
+// Background image style
+.bg-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('imagendefondo.jpg');
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+    opacity: 0.5;
+}
+
+// Card style
+.card {
+    background-color: $secondary-bg-color;
+    color: $white-color;
+}
+
+// Logo style
+.imglogo {
+    max-width: 150px;
+    margin-bottom: 20px;
+}
+
+// Text style
+.card-text2 {
+    font-size: 1.2rem;
+    color: $white-color;
+}
+
+// Input style
+.form-label {
+    color: $white-color;
+}
+
+.form-control {
+    background-color: $primary-bg-color;
+    color: $white-color;
+    border: 1px solid $primary-color;
+}
+
+.form-control::placeholder {
+    color: $primary-color;
+}
+
+.form-check-label {
+    color: $white-color;
+}
+
+// Button style
+.btn-primary {
+    background-color: $accent-color;
+    color: $black-color;
+    border: none;
+
+    &:hover {
+        background-color: darken($accent-color, 10%);
+    }
+}
